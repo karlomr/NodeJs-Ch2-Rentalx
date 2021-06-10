@@ -1,0 +1,3 @@
+- Padronização de código
+    - Eslint
+    - Prettier

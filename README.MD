@@ -13,12 +13,19 @@
 - DTO => Data Transfer object
 
 
-- S.O.L.I.D
+- S.O.L.I.D (Bobert Martin)
 - S => SRP - Single Responsibility Principle
 - O => OCP - Open-Closed Principle
 - L => LSP - Liskov Substitution Principle
 - I => ISP - Interface Segregation Principle
 - D => DIP - Dependency Inversion Principle
+
+- DIP
+- Os serviços não podem ter forte acoplamento com tecnologia aplicada no banco de dados.
+
+
+
+
 
 
 

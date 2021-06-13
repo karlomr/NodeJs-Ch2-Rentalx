@@ -11,13 +11,14 @@ interface IRequest {
  * [] Definir o tipo de retorno
  * [] Alterar o retorno do erro
  * [] Acessar o repositório
+ * [] Retornar algo
  */
 class CreateCategoryService {
     execute({ description, name }) : IRequest {
         const categoryAlreadyExists = categoriesRepository.findByName(name);
 
         if(categoryAlreadyExists) {
-            return response.status(400).json({ error: "Category already exists!" })
+            throw new Error ("Category already exists!")
         }
     
         categoriesRepository.create({ name, description });        

@@ -23,5 +23,11 @@
 - DIP
 - Os serviços não podem ter forte acoplamento com tecnologia aplicada no banco de dados.
 
+- Controller
+- Classes que recebem requisições e repassam a resposta para quem as chama
+
+- Criando Use Case de categoria
+
+
 
 

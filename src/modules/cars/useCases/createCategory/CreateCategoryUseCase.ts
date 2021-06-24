@@ -1,13 +1,9 @@
-
-
 import { ICategoriesRepository } from "../../repositories/ICategoriesRepository";
-
 //definition for class Category
 interface IRequest {
     name: string;
     description: string;
 }
-
 
 class CreateCategoryUseCase {
     constructor(private categoriesRepository: ICategoriesRepository) {}

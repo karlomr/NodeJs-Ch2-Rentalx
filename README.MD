@@ -28,6 +28,10 @@
 
 - Criando Use Case de categoria
 
+-Refatorando a listagem de categoria
+
+-Singleton Pattern
+
 
 
 
